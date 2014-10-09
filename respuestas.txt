@@ -1,1 +1,15 @@
-ed
+
+
+
+18. ¿Cu´al es el resultado de la siguiente operaci´on?
+
+2.1.2 :001 > puts "Hello world"
+Hello world
+ => nil 
+
+21. ¿Cuales son las diferencias entre la ejecuci´on del programa "Hola Mundo" con el int´erprete
+de Ruby (ruby helloWorld.rb) y el int´erprete interactivo del ejercicio anterior? Escriba la
+respuesta en ﬁchero creado en el ejercicio 9.
+
+Con el irb te ejecuta sentencia a sentencia, como si tuvieramos abierto el interprete.
+Con ruby lo ejecuta como un programa.
