@@ -7,9 +7,35 @@
 Hello world
  => nil 
 
+ 
 21. ¿Cuales son las diferencias entre la ejecuci´on del programa "Hola Mundo" con el int´erprete
 de Ruby (ruby helloWorld.rb) y el int´erprete interactivo del ejercicio anterior? Escriba la
 respuesta en ﬁchero creado en el ejercicio 9.
 
 Con el irb te ejecuta sentencia a sentencia, como si tuvieramos abierto el interprete.
 Con ruby lo ejecuta como un programa.
+
+
+26. ¿Cu´al es el resultado de cada una de las siguientes operaciones?
+[2] pry(main)> puts x
+10
+=> nil
+[3] pry(main)> def hello
+[3] pry(main)*   puts "Hello world"
+[3] pry(main)* end  
+=> nil
+[4] pry(main)> hello
+Hello world
+=> nil
+[5] pry(main)> byebye
+bye bye world!!!
+=> nil
+[6] pry(main)> x = "changed"
+=> "changed"
+[7] pry(main)> exit
+
+
+27. ¿Cu´ales son las diferencias entre la ejecuci´on del programa "Hola Mundo" con el int´erprete
+interactivo y con pry? Escriba la respuesta en ﬁchero creado en el ejercicio 9.
+
+Pry ejecuta paso a paso y podemos cambiar el codigo en tiempo de ejecución.
